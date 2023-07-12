@@ -1,0 +1,1141 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;700&display=swap');
+/* font-family: 'Saira Condensed', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+/* font-family: 'Saira', sans-serif; */
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 80vh;
+}
+
+header {
+    position: relative;
+    max-width: 1920px;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #29a6dc;
+    overflow: hidden;
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+
+}
+
+img.ja {
+    position: absolute;
+    height: 55%;
+    bottom: 0;
+    right: -30%;
+
+}
+
+div.welcome {
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    z-index: 1;
+    left: 4%;
+    right: 4%;
+    top: 6%;
+
+}
+
+div.welcome h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+
+}
+
+div.welcome p {
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+div.welcome p+p {
+    font-weight: bold;
+
+}
+
+button {
+    line-height: 35px;
+    margin-top: 30px;
+    padding: 0 10px;
+    font-size: 18px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media((min-width:300px) and (orientation:portrait)) {
+    img.ja {
+        height: 50%;
+        right: 0;
+    }
+
+    div.welcome {
+        top: 3%;
+        font-size: 20px;
+    }
+
+    div.welcome h1 {
+        margin-bottom: 0;
+        line-height: 35px;
+    }
+
+    button {
+        font-size: 20px;
+        line-height: 40px;
+        ;
+    }
+}
+
+@media((min-width:360px) and (orientation:portrait)) {
+    img.ja {
+
+        right: -10%;
+    }
+
+    div.welcome {
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 25px;
+        line-height: 45px;
+        ;
+    }
+}
+
+@media((min-width:412px) and (orientation:portrait)) {
+    img.ja {
+
+        right: -30%;
+    }
+
+    div.welcome {
+        font-size: 32px;
+    }
+
+    button {
+        font-size: 30px;
+        line-height: 50px;
+        ;
+    }
+}
+
+@media((min-height:700px) and (orientation:portrait)) {
+    img.ja {
+
+        right: -30%;
+    }
+
+}
+
+
+@media((min-width:540px) and (orientation:portrait)) {
+    img.ja {
+
+        right: 0;
+    }
+
+    div.welcome {
+        font-size: 32px;
+    }
+
+    button {
+        font-size: 30px;
+        line-height: 50px;
+        ;
+    }
+}
+
+@media((min-width:768px) and (orientation:portrait)) {
+    img.ja {
+
+        right: 0;
+    }
+
+    div.welcome {
+        font-size: 45px;
+
+    }
+
+    div.welcome p {
+        line-height: 50px;
+    }
+
+    button {
+        margin-top: 40px;
+        font-size: 50px;
+        line-height: 90px;
+        ;
+    }
+}
+
+@media((min-width:768px) and (orientation:portrait)) {
+    img.ja {
+
+        right: 0;
+    }
+
+    div.welcome {
+        font-size: 60px;
+
+    }
+
+    div.welcome p {
+        line-height: 70px;
+    }
+
+    button {
+        margin-top: 40px;
+        font-size: 70px;
+        line-height: 100px;
+        padding: 0 30px;
+    }
+}
+
+
+
+
+@media((orientation:landscape)) {
+    img.ja {
+        height: 100%;
+        right: 0;
+    }
+
+    div.welcome h1 {
+        margin-bottom: 20px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 30px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 45px;
+    }
+
+    button {
+        margin-top: 35px;
+        font-size: 28px;
+        line-height: 45px;
+        padding: 0 25px;
+    }
+}
+
+@media((orientation:landscape) and (max-height:300px)) {
+    img.ja {
+        height: 100%;
+        right: 0;
+    }
+
+    div.welcome h1 {
+        margin-bottom: 10px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 25px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 30px;
+    }
+
+    button {
+        margin-top: 25px;
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0 25px;
+    }
+}
+
+
+@media((orientation:landscape) and (min-width:667px)) {
+    img.ja {
+        height: 100%;
+        right: -10%;
+    }
+
+    div.welcome h1 {
+        margin-bottom: 15px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 30px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 45px;
+    }
+
+    button {
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 50px;
+        padding: 0 30px;
+    }
+}
+
+@media((orientation:landscape) and (min-width:840px)) {
+    img.ja {
+        height: 100%;
+        right: 0;
+    }
+
+    div.welcome h1 {
+        margin-bottom: 15px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 30px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 45px;
+    }
+
+    button {
+        margin-top: 40px;
+        font-size: 30px;
+        line-height: 50px;
+        padding: 0 30px;
+    }
+}
+
+@media((orientation:landscape) and (min-width:1024px)) {
+    img.ja {
+        height: 90%;
+        right: -20%;
+    }
+
+    div.welcome h1 {
+        font-size: 70px;
+        margin-bottom: 25px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 40px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 75px;
+    }
+
+    button {
+        margin-top: 70px;
+        font-size: 45px;
+        line-height: 100px;
+        padding: 0 20px;
+    }
+}
+
+@media((orientation:landscape) and (min-width:1180px)) {
+    img.ja {
+        height: 90%;
+        right: -20%;
+    }
+
+    div.welcome h1 {
+        font-size: 85px;
+        margin-bottom: 35px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 45px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 90px;
+    }
+
+    button {
+        margin-top: 100px;
+        font-size: 50px;
+        line-height: 100px;
+        padding: 0 20px;
+    }
+}
+
+@media((orientation:landscape) and (min-width:1368px)) {
+    img.ja {
+        height: 100%;
+        right: -20%;
+    }
+
+    div.welcome h1 {
+        font-size: 90px;
+        margin-bottom: 40px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 55px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 90px;
+    }
+
+    button {
+        margin-top: 120px;
+        font-size: 60px;
+        line-height: 110px;
+        padding: 0 30px;
+    }
+}
+
+@media((orientation:landscape) and (min-width:1920px)) {
+    img.ja {
+        height: 100%;
+        right: 0;
+    }
+
+    div.welcome h1 {
+        font-size: 100px;
+        margin-bottom: 60px;
+    }
+
+    div.welcome {
+        top: 5%;
+        left: 5%;
+        right: 0;
+        bottom: 0;
+        font-size: 65px;
+        text-align: left;
+
+    }
+
+    div.welcome p {
+        line-height: 90px;
+    }
+
+    button {
+        margin-top: 200px;
+        font-size: 75px;
+        line-height: 120px;
+        padding: 0 40px;
+    }
+}
+
+/* 
+sekcja features 3 obrazki */
+.features {
+    max-width: 90vw;
+    margin: 0 auto;
+}
+
+.features h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-transform: uppercase;
+    margin: 30px 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.feature p {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.feature img {
+    width: 100%;
+
+}
+
+.feature h1 {
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+@media(min-width:768px) {
+
+
+    .features h1 {
+        font-size: 40px;
+    }
+
+    .feature h1 {
+        font-size: 30px;
+
+    }
+
+    .feature p {
+        font-size: 25px;
+
+    }
+
+
+
+}
+
+@media(min-width:1024px) {
+    .feature {
+        float: left;
+        width: 33%;
+        padding: 30px;
+    }
+
+    .features h1 {
+        font-size: 35px;
+    }
+
+    .feature h1 {
+        font-size: 20px;
+
+    }
+
+    .feature p {
+        font-size: 18px;
+
+    }
+}
+
+@media(min-width:1280px) {
+
+
+    .features h1 {
+        font-size: 45px;
+    }
+
+    .feature h1 {
+        font-size: 25px;
+
+    }
+
+    .feature p {
+        font-size: 23px;
+
+    }
+
+}
+
+@media(min-width:1600px) {
+
+
+    .features h1 {
+        font-size: 60px;
+    }
+
+    .feature h1 {
+        font-size: 35px;
+
+    }
+
+    .feature p {
+        font-size: 33px;
+
+    }
+
+}
+
+
+/* portfolioo */
+.portfolio h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    text-align: center;
+    padding: 10px 10px;
+    text-transform: uppercase;
+}
+
+.portfolio {
+    background-color: #1e1e1e;
+    font-size: 17px;
+    color: white;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.portfolio .project:nth-of-type(odd) {
+    background-color: #ff4f2c;
+}
+
+.portfolio .project:nth-of-type(even) {
+    background-color: #0170ba;
+}
+
+.desc {
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+.desc h2 {
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.desc p {
+    font-size: 12px;
+
+    padding: 10px 20px;
+
+}
+
+.project {
+    margin-bottom: 3vh;
+
+}
+
+.picture img {
+    display: block;
+}
+
+@media(orientation:landscape) {
+    .project .picture {
+        float: left;
+        width: 50%;
+
+    }
+
+    .project .desc {
+        float: left;
+        width: 50%;
+    }
+
+    .portfolio .project:nth-of-type(even) .picture {
+        float: right;
+    }
+
+    .portfolio .project:nth-of-type(even) .desc h2 {
+        margin-left: 10%;
+    }
+}
+
+@media(min-width:844px) {
+    .desc h2 {
+
+        font-size: 22px;
+
+
+    }
+
+    .desc p {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:1024px) {
+
+    .portfolio h1 {
+        font-size: 40px;
+        line-height: 210%;
+    }
+
+    .desc h2 {
+
+        font-size: 28px;
+
+
+    }
+
+    .desc p {
+        font-size: 24px;
+    }
+}
+
+@media(min-width:1280px) {
+
+    .portfolio h1 {
+        font-size: 42px;
+
+    }
+
+    .desc h2 {
+
+        font-size: 34px;
+
+
+    }
+
+    .desc p {
+        font-size: 30px;
+    }
+}
+
+@media(min-width:1600px) {
+
+    .portfolio h1 {
+        font-size: 50px;
+
+    }
+
+    .desc h2 {
+
+        font-size: 40px;
+        padding: 20px 30px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid white;
+
+        margin-bottom: 15px;
+    }
+
+    .desc p {
+        font-size: 36px;
+
+        padding: 10px 30px;
+
+    }
+}
+
+@media(min-width:1920px) {
+
+    .portfolio h1 {
+        font-size: 60px;
+
+    }
+
+    .desc h2 {
+
+        font-size: 50px;
+        padding: 30px 55px;
+        padding-bottom: 18px;
+        border-bottom: 3px solid white;
+
+        margin-bottom: 15px;
+    }
+
+    .desc p {
+        font-size: 44px;
+
+        padding: 10px 55px;
+
+    }
+}
+
+/* motto */
+
+.motto {
+    background-image: url("images/motto.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Saira', sans-serif;
+}
+
+div.bgc {
+    background-color: rgba(0, 63, 114, 0.5);
+}
+
+.motto h1 {
+    font-size: 18px;
+    padding-top: 4vh;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.motto p {
+    font-size: 13px;
+    padding: 7vh 10vw;
+    text-align: center;
+    line-height: 200%;
+}
+
+.motto p i {
+    display: block;
+    font-weight: 300;
+    font-size: 9px;
+}
+
+@media(min-width:414px) {
+    .motto h1 {
+        font-size: 24px;
+
+    }
+
+    .motto p {
+        font-size: 16px;
+
+    }
+
+    .motto p i {
+
+        font-size: 13px;
+    }
+}
+
+@media(min-width:700px) {
+    .motto h1 {
+        font-size: 35px;
+
+    }
+
+    .motto p {
+        font-size: 22px;
+
+    }
+
+    .motto p i {
+
+        font-size: 15px;
+    }
+}
+
+@media(min-width:1024px) {
+    .motto h1 {
+        font-size: 45px;
+        padding-top: 8vh;
+
+    }
+
+    .motto p {
+        font-size: 34px;
+        padding: 14vh 10vw;
+    }
+
+    .motto p i {
+
+        font-size: 25px;
+    }
+}
+
+@media(min-width:1440px) {
+    .motto h1 {
+        font-size: 50px;
+
+
+    }
+
+    .motto p {
+        font-size: 38px;
+
+    }
+
+    .motto p i {
+
+        font-size: 28px;
+    }
+}
+
+@media(min-width:1920px) {
+    .motto h1 {
+        font-size: 65px;
+
+
+    }
+
+    .motto p {
+        font-size: 44px;
+
+    }
+
+    .motto p i {
+
+        font-size: 34px;
+    }
+}
+
+/* hobby */
+
+.hobby .item {
+    height: 25vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hobby .item:nth-of-type(1) {
+    background-image: url("images/hobby1.jpg");
+}
+
+.hobby .item:nth-of-type(2) {
+    background-image: url("images/hobby2.jpg");
+}
+
+.hobby .item:nth-of-type(3) {
+    background-image: url("images/hobby3.jpg");
+}
+
+.hobby .item:nth-of-type(4) {
+    background-image: url("images/hobby4.jpg");
+}
+
+.item p {
+    font-family: 'Saira', sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 4px black;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+}
+
+.hobby h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    text-transform: uppercase;
+    padding: 3vh 5vw;
+    text-align: center;
+}
+
+@media(min-width:390px) {
+    .item p {
+        font-size: 24px;
+    }
+}
+
+@media(min-width:540px) {
+    .hobby .item {
+        float: left;
+        width: 50%;
+        height: 40vh;
+    }
+
+}
+
+@media(min-width:1024px) {
+    .item p {
+
+        opacity: 0;
+
+    }
+
+    .item:hover p {
+        opacity: 1;
+        font-size: 40px;
+        padding: 0;
+        line-height: 40vh;
+
+    }
+
+    .hobby .item {
+        background-size: 120%;
+        /* overflow: hidden; */
+        transition: 1s;
+
+    }
+
+    .hobby .item:hover {
+        background-size: 140%;
+
+
+    }
+
+    .hobby h1 {
+        font-size: 40px;
+    }
+
+
+
+}
+
+/* social */
+.contact {
+    background-color: #111;
+
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.contact h1 {
+    font-size: 26px;
+    padding-top: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+    color: white;
+
+
+}
+
+.wrap form input {
+    height: 5vh;
+}
+
+.wrap form textarea {
+    height: 10vh;
+}
+
+.wrap form button {
+    height: 10vh;
+}
+
+.wrap form button:hover {
+    height: 10vh;
+}
+
+.wrap form input,
+.wrap textarea,
+.wrap button {
+    width: 100%;
+    margin-top: 5vh;
+
+    line-height: 100%;
+
+
+}
+
+.social {
+    margin-top: 10vh;
+}
+
+.socials_img {
+    float: left;
+    width: 30%;
+
+}
+
+.socials_img img {
+    display: block;
+    height: 10vh;
+    /* margin-bottom: 3vh; */
+
+    padding-left: 8vw;
+
+}
+
+.socials_text {
+    width: 70%;
+    float: left;
+    color: white;
+}
+
+.socials_text p {
+    line-height: 10vh;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+
+}
+
+@media(min-width:768px) {
+    .socials_text p {
+        font-size: 26px;
+
+    }
+
+
+    .contact h1 {
+        font-size: 45px;
+
+    }
+
+    .wrap form input,
+    textarea {
+        font-size: 30px;
+
+
+
+    }
+
+
+
+}
+
+@media(min-width:1024px) {
+
+    .wrap {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .social {
+        float: left;
+        width: 50%;
+
+    }
+
+    .wrap form {
+        float: left;
+        width: 50%;
+    }
+
+    .wrap form {
+        padding-top: 8vh;
+    }
+
+
+
+}
+
+@media(min-width:1920px) {
+    .socials_text p {
+        font-size: 40px;
+
+    }
+
+
+    .contact h1 {
+        font-size: 65px;
+
+    }
+
+    .wrap form input,
+    textarea {
+        font-size: 40px;
+
+
+
+    }
+
+
+
+}
